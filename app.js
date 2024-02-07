@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 
-const main = () => {
+const app = () => {
   const app = express();
   const PORT = 3002;
   const server = require("http").createServer(app);
@@ -25,4 +25,4 @@ const main = () => {
   });
 };
 
-main();
+app();
